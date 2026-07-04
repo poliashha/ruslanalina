@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'marianna';
+  src:
+    url("./marianna.woff2") format("woff2"),
+    url("./marianna.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src:
+    url("./Montserrat-Regular.woff2") format("woff2"),
+    url("./Buongiorno-Rastellino-Cyr-Script.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GentiumPlus';
+  src:
+    url("./GentiumPlus.woff2") format("woff2"),
+    url("./GentiumPlus.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nicoletta';
+  src:
+    url("./Nicoletta-Script-SHA-Regular.woff2") format("woff2"),
+    url("./Nicoletta-Script-SHA-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src:
+    url("./Cormorant-Regular.woff2") format("woff2"),
+    url("./Cormorant-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

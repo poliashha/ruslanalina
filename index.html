@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="RU">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Приглашение на свадьбу от Руслана и Алины" />
+    <meta property="og:image" content="./img/icon.jpg" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta name="color-scheme" content="light" />
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/variabels.css" />
+    <link rel="icon" href="img/icon.svg" sizes="any" />
+    <link rel="icon" href="img/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="fotofirst" src="./img/foto.png" alt="" />
+      <div class="box-header">
+        <p class="title-header end">&</p>
+        <p class="title-header">Руслан<br />Алина</p>
+      </div>
+    </header>
+    <main class="main">
+      <article class="dear">
+        <h1 class="title">
+          Дорогие наши<br />
+          родные и близкие!
+        </h1>
+        <p class="text">
+          Приглашаем вас разделить с нами самый счастливый день — день нашей
+          свадьбы! Для нас нет ничего важнее, чем видеть рядом тех, кто нам
+          по-настоящему дорог.
+        </p>
+        <div class="box-date">
+          <p class="text date">АВГУСТ | 2026</p>
+          <object
+            type="image/svg+xml"
+            data="./img/calendar.svg"
+            width="322"
+            height="77"
+          ></object>
+        </div>
+      </article>
+
+      <article class="place">
+        <div class="box-place">
+          <img class="hotel" src="./img/hotel.jpg" alt="" />
+          <img class="hotel" src="./img/place.jpg" alt="" /><button
+            class="map-bth"
+          >
+            <a class="href" href="https://yandex.ru/maps/-/CTeHmQy3"
+              >посмотреть<br />
+              на карте</a
+            >
+          </button>
+        </div>
+        <h1 class="title-main left">
+          Место
+торжетсва
+        </h1>
+        <p class="text left">Московская обл., Можайский г.о., дер. Горетово, ул.  Бестужевская, д.1</p>
+      </article>
+      <article class="timing">
+        <h1 class="title-main">программа дня</h1>
+         <object
+            type="image/svg+xml"
+            data="./img/timing.svg"
+            width="412"
+            height="395"
+          ></object>
+      </article>
+      <article class="dresscode">
+        <h1 class="title-main">дресс-код</h1>
+        <p class="text dress-text">Мы очень ждем и с удовольствием готовимся к нашему празднику.<br/> Просим поддержать нас улыбками, <br/>
+а также красивыми нарядами в палитре торжества </p>
+         <object
+         class="circle"
+            type="image/svg+xml"
+            data="./img/circle.svg"
+            width="267"
+            height="139"
+          ></object>
+         <object
+            type="image/svg+xml"
+            data="./img/people.svg"
+            width="373"
+            height="208"
+          ></object>
+      </article>
+      <article class="form">
+        <h4 class="title-main">АНКЕТА</h4>
+         
+        <form  class="form-box" name="submit-to-google-sheet" id="form" action="#">
+          <label class="input_box">Ваши имя и фамилия
+          <input
+            class="input"
+            name="name"
+            id="name"
+            type="text"
+            placeholder="Имя Фамилия" required
+          />
+          <span class="error-text" id="error-text">Пожалуйста, заполните поле</span>
+        </label>
+          <fieldset class="radio" >
+            <h2 class="radio-text">
+              Сможете ли вы присутствовать?
+            </h2>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="да" id="presenceYes" required/>
+              <span class="radio-circle"></span>
+              <span  class="text-input">Да</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="нет" id="presenceNo" />
+              <span class="radio-circle"></span>
+              <span class="text-input">Нет</span>
+            </label>
+            <label class="custom-radio">
+              <input type="radio" name="presence" value="отвечу позже" id="presenceNo" />
+              <span class="radio-circle"></span>
+              <span class="text-input">Отвечу позже</span>
+            </label>
+           
+          
+            <div class="radio-error" id="presenceError">
+          
+          Выберите, один из вариантов
+        </div>
+      </fieldset>
+<fieldset class="radio">
+  <h2 class=" radio-text varints-text">
+            Что предпочитаете из напитков?
+            </h2>
+            <p class="text left mini">Можно выбрать несколько вариантов</p>
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="белое вино"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Белое вино</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="красное вино"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Красное вино</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="шампанское"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Шампанское</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="коньяк"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Коньяк</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="виски"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Виски</span>
+          </label>
+          <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="водка"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Водка</span>
+          </label>
+           <label class="checkbox">
+          <input
+            name="drinks"
+            id="whitewine"
+            type="checkbox"
+            class="checkbox__input"
+            value="Безалкогольные напитки"/>
+            <span class="dicorete-checkbox"></span>
+            <span class="text-input">Безалкогольные напитки</span>
+          </label>
+           <label class="checkbox">
+          </fieldset>
+          
+          <button class="map-button button hover" type="submit"><p class="href-button button-text">Подтвердить присутствие
+</p></button>
+          <div class="form-send"></div>
+        </form>
+      </article>
+      <article>
+       <h1 class="title time-text">
+          Увидимся с Вами через...
+        </h1>
+        <div class="timer" id="timer">
+            <span class="timer-box">
+              <p class="timer-text days" id="days"></p>
+            </span>
+            <span class="end-flex">
+              <p class="timer-text colon">:</p>
+            </span>
+            <span>
+              <p class="timer-text hours" id="hours"></p>
+            </span>
+            <span class="end-flex">
+              <p class="timer-text colon">:</p>
+            </span>
+            <span>
+              <p class="timer-text minutes" id="minutes"></p>
+            </span>
+            <span class="end-flex">
+              <p class="timer-text colon">:</p>
+            </span>
+            <span>
+              <p class="timer-text seconds" id="seconds"></p>
+            </span>
+          </div>
+        <object
+         class="footer"
+            type="image/svg+xml"
+            data="./img/time.svg"
+            width="412"
+            height="460"
+          ></object></article>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
